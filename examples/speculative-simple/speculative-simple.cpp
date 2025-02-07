@@ -100,6 +100,8 @@ int main(int argc, char ** argv) {
     int n_drafted = 0;
     int n_accept  = 0;
 
+    int count = 0;
+
     // used to determine end of generation
     bool has_eos = false;
 
@@ -168,6 +170,7 @@ int main(int argc, char ** argv) {
             //LOG_DBG("target batch: %s\n", string_from(ctx_tgt, batch_tgt).c_str());
 
             llama_decode(ctx_tgt, batch_tgt);
+            ++count;
         }
 
         // sample from the full target batch and return the accepted tokens based on the target sampler
@@ -239,6 +242,8 @@ int main(int argc, char ** argv) {
     LOG_INF("n_predict = %d\n", n_predict);
     LOG_INF("n_drafted = %d\n", n_drafted);
     LOG_INF("n_accept  = %d\n", n_accept);
+    LOG_INF("count     = %d\n", count);
+    // LOG_INF("accept    = %.3f%%\n", 100.0f * n_accept /(count * n_draft));
     LOG_INF("accept    = %.3f%%\n", 100.0f * n_accept / n_drafted);
 
     LOG_INF("\n");

@@ -1,0 +1,170 @@
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 8 CUDA devices:
+  Device 0: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 1: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 2: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 3: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 4: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 5: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 6: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+  Device 7: NVIDIA GeForce RTX 4090, compute capability 8.9, VMM: yes
+build: 4479 (a4f3f5d8) with cc (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0 for x86_64-linux-gnu
+llama_model_load_from_file: using device CUDA0 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA1 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA2 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA3 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA4 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA5 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA6 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_load_from_file: using device CUDA7 (NVIDIA GeForce RTX 4090) - 23826 MiB free
+llama_model_loader: loaded meta data with 30 key-value pairs and 254 tensors from mymodel/gemma-7b-Q5_K.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = gemma
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Gemma 7b
+llama_model_loader: - kv   3:                       general.organization str              = Google
+llama_model_loader: - kv   4:                           general.basename str              = gemma
+llama_model_loader: - kv   5:                         general.size_label str              = 7B
+llama_model_loader: - kv   6:                       gemma.context_length u32              = 8192
+llama_model_loader: - kv   7:                     gemma.embedding_length u32              = 3072
+llama_model_loader: - kv   8:                          gemma.block_count u32              = 28
+llama_model_loader: - kv   9:                  gemma.feed_forward_length u32              = 24576
+llama_model_loader: - kv  10:                 gemma.attention.head_count u32              = 16
+llama_model_loader: - kv  11:              gemma.attention.head_count_kv u32              = 16
+llama_model_loader: - kv  12:     gemma.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  13:                 gemma.attention.key_length u32              = 256
+llama_model_loader: - kv  14:               gemma.attention.value_length u32              = 256
+llama_model_loader: - kv  15:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  16:                         tokenizer.ggml.pre str              = default
+llama_model_loader: - kv  17:                      tokenizer.ggml.tokens arr[str,256000]  = ["<pad>", "<eos>", "<bos>", "<unk>", ...
+llama_model_loader: - kv  18:                      tokenizer.ggml.scores arr[f32,256000]  = [-1000.000000, -1000.000000, -1000.00...
+llama_model_loader: - kv  19:                  tokenizer.ggml.token_type arr[i32,256000]  = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ...
+llama_model_loader: - kv  20:                tokenizer.ggml.bos_token_id u32              = 2
+llama_model_loader: - kv  21:                tokenizer.ggml.eos_token_id u32              = 1
+llama_model_loader: - kv  22:            tokenizer.ggml.unknown_token_id u32              = 3
+llama_model_loader: - kv  23:            tokenizer.ggml.padding_token_id u32              = 0
+llama_model_loader: - kv  24:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  25:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  26:                tokenizer.ggml.eot_token_id u32              = 107
+llama_model_loader: - kv  27:            tokenizer.ggml.add_space_prefix bool             = false
+llama_model_loader: - kv  28:               general.quantization_version u32              = 2
+llama_model_loader: - kv  29:                          general.file_type u32              = 17
+llama_model_loader: - type  f32:   57 tensors
+llama_model_loader: - type q5_K:  168 tensors
+llama_model_loader: - type q6_K:   29 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q5_K - Medium
+print_info: file size   = 5.72 GiB (5.75 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 217
+load: token to piece cache size = 1.6014 MB
+print_info: arch             = gemma
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 8192
+print_info: n_embd           = 3072
+print_info: n_layer          = 28
+print_info: n_head           = 16
+print_info: n_head_kv        = 16
+print_info: n_rot            = 256
+print_info: n_swa            = 0
+print_info: n_embd_head_k    = 256
+print_info: n_embd_head_v    = 256
+print_info: n_gqa            = 1
+print_info: n_embd_k_gqa     = 4096
+print_info: n_embd_v_gqa     = 4096
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: n_ff             = 24576
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = 0
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 10000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 8192
+print_info: rope_finetuned   = unknown
+print_info: ssm_d_conv       = 0
+print_info: ssm_d_inner      = 0
+print_info: ssm_d_state      = 0
+print_info: ssm_dt_rank      = 0
+print_info: ssm_dt_b_c_rms   = 0
+print_info: model type       = 7B
+print_info: model params     = 8.54 B
+print_info: general.name     = Gemma 7b
+print_info: vocab type       = SPM
+print_info: n_vocab          = 256000
+print_info: n_merges         = 0
+print_info: BOS token        = 2 '<bos>'
+print_info: EOS token        = 1 '<eos>'
+print_info: EOT token        = 107 '<end_of_turn>'
+print_info: UNK token        = 3 '<unk>'
+print_info: PAD token        = 0 '<pad>'
+print_info: LF token         = 227 '<0x0A>'
+print_info: EOG token        = 1 '<eos>'
+print_info: EOG token        = 107 '<end_of_turn>'
+print_info: max token length = 48
+load_tensors: offloading 28 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 29/29 layers to GPU
+load_tensors:        CUDA0 model buffer size =   759.56 MiB
+load_tensors:        CUDA1 model buffer size =   737.25 MiB
+load_tensors:        CUDA2 model buffer size =   555.73 MiB
+load_tensors:        CUDA3 model buffer size =   748.41 MiB
+load_tensors:        CUDA4 model buffer size =   737.25 MiB
+load_tensors:        CUDA5 model buffer size =   555.73 MiB
+load_tensors:        CUDA6 model buffer size =   759.56 MiB
+load_tensors:        CUDA7 model buffer size =  1000.61 MiB
+load_tensors:   CPU_Mapped model buffer size =   615.23 MiB
+llama_init_from_model: n_seq_max     = 4
+llama_init_from_model: n_ctx         = 2048
+llama_init_from_model: n_ctx_per_seq = 512
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 0
+llama_init_from_model: freq_base     = 10000.0
+llama_init_from_model: freq_scale    = 1
+llama_init_from_model: n_ctx_per_seq (512) < n_ctx_train (8192) -- the full capacity of the model will not be utilized
+llama_kv_cache_init: kv_size = 2048, offload = 1, type_k = 'f16', type_v = 'f16', n_layer = 28, can_shift = 1
+llama_kv_cache_init:      CUDA0 KV buffer size =   128.00 MiB
+llama_kv_cache_init:      CUDA1 KV buffer size =   128.00 MiB
+llama_kv_cache_init:      CUDA2 KV buffer size =    96.00 MiB
+llama_kv_cache_init:      CUDA3 KV buffer size =   128.00 MiB
+llama_kv_cache_init:      CUDA4 KV buffer size =   128.00 MiB
+llama_kv_cache_init:      CUDA5 KV buffer size =    96.00 MiB
+llama_kv_cache_init:      CUDA6 KV buffer size =   128.00 MiB
+llama_kv_cache_init:      CUDA7 KV buffer size =    64.00 MiB
+llama_init_from_model: KV self size  =  896.00 MiB, K (f16):  448.00 MiB, V (f16):  448.00 MiB
+llama_init_from_model:  CUDA_Host  output buffer size =     3.91 MiB
+llama_init_from_model: pipeline parallelism enabled (n_copies=4)
+llama_init_from_model:      CUDA0 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA1 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA2 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA3 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA4 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA5 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA6 compute buffer size =   148.01 MiB
+llama_init_from_model:      CUDA7 compute buffer size =   546.02 MiB
+llama_init_from_model:  CUDA_Host compute buffer size =    22.02 MiB
+llama_init_from_model: graph nodes  = 931
+llama_init_from_model: graph splits = 9
+common_init_from_params: setting dry_penalty_last_n to ctx_size = 2048
+common_init_from_params: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+
+system_info: n_threads = 32 (n_threads_batch = 32) / 64 | CUDA : ARCHS = 520,610,700,750 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | AMX_INT8 = 1 | LLAMAFILE = 1 | OPENMP = 1 | AARCH64_REPACK = 1 | 
+perplexity: tokenizing the input ..
+perplexity: tokenization took 1260.91 ms
+perplexity: calculating perplexity over 569 chunks, n_ctx=512, batch_size=2048, n_seq=4
+perplexity: 0.91 seconds per pass - ETA 2.15 minutes
+[1]4.4034,[2]5.5777,[3]5.4570,[4]5.7591,[5]5.9518,[6]6.5530,[7]6.8926,[8]7.3100,[9]7.9342,[10]8.2449,[11]8.2912,[12]8.5056,[13]9.0347,[14]8.5532,[15]8.3545,[16]8.1722,[17]7.7869,[18]7.9761,[19]7.6302,[20]7.5586,[21]7.4075,[22]7.3574,[23]7.0823,[24]6.8617,[25]6.7449,[26]6.5156,[27]6.4248,[28]6.3953,[29]6.3175,[30]6.3837,[31]6.3874,[32]6.4109,[33]6.4196,[34]6.4760,[35]6.4723,[36]6.5516,[37]6.6198,[38]6.5503,[39]6.6405,[40]6.5917,[41]6.5568,[42]6.5883,[43]6.5915,[44]6.5481,[45]6.5267,[46]6.5948,[47]6.6560,[48]6.6698,[49]6.7105,[50]6.7686,[51]6.7931,[52]6.8146,[53]6.8469,[54]6.8320,[55]6.9067,[56]6.9029,[57]6.9378,[58]6.9731,[59]7.0033,[60]7.0532,[61]7.0711,[62]7.1197,[63]7.1874,[64]7.2481,[65]7.3008,[66]7.3559,[67]7.3445,[68]7.3522,[69]7.3428,[70]7.3697,[71]7.4000,[72]7.4247,[73]7.4235,[74]7.3832,[75]7.3638,[76]7.3767,[77]7.3734,[78]7.3221,[79]7.3250,[80]7.3172,[81]7.3647,[82]7.3772,[83]7.3575,[84]7.3817,[85]7.4093,[86]7.4143,[87]7.4359,[88]7.4055,[89]7.4204,[90]7.4222,[91]7.4036,[92]7.4334,[93]7.4461,[94]7.4717,[95]7.4693,[96]7.5201,[97]7.5250,[98]7.5396,[99]7.6080,[100]7.6368,[101]7.6418,[102]7.6348,[103]7.6344,[104]7.6231,[105]7.6442,[106]7.6807,[107]7.7236,[108]7.7700,[109]7.8584,[110]7.8646,[111]7.8539,[112]7.9072,[113]7.9513,[114]7.9341,[115]7.9370,[116]7.9492,[117]7.9269,[118]7.9301,[119]7.9274,[120]7.9101,[121]7.9009,[122]7.8814,[123]7.8724,[124]7.8455,[125]7.8435,[126]7.7998,[127]7.7711,[128]7.7381,[129]7.7140,[130]7.7065,[131]7.7052,[132]7.7116,[133]7.7125,[134]7.7021,[135]7.6766,[136]7.6892,[137]7.6904,[138]7.7247,[139]7.7122,[140]7.6899,[141]7.7076,[142]7.6735,[143]7.6415,[144]7.5999,[145]7.5569,[146]7.5007,[147]7.4390,[148]7.4025,[149]7.3669,[150]7.3376,[151]7.3100,[152]7.2894,[153]7.2515,[154]7.2165,[155]7.1857,[156]7.1492,[157]7.1238,[158]7.1086,[159]7.0833,[160]7.0690,[161]7.0625,[162]7.0537,[163]7.0433,[164]7.0536,[165]7.0447,[166]7.0696,[167]7.0932,[168]7.1358,[169]7.1765,[170]7.1945,[171]7.2416,[172]7.2761,[173]7.3293,[174]7.3764,[175]7.3830,[176]7.3771,[177]7.4114,[178]7.4287,[179]7.4170,[180]7.4228,[181]7.4231,[182]7.4403,[183]7.4517,[184]7.4517,[185]7.4688,[186]7.4862,[187]7.4988,[188]7.4973,[189]7.5093,[190]7.5365,[191]7.5633,[192]7.5711,[193]7.5806,[194]7.5717,[195]7.5630,[196]7.5443,[197]7.5256,[198]7.5483,[199]7.5730,[200]7.5903,[201]7.5720,[202]7.5798,[203]7.5593,[204]7.5418,[205]7.5247,[206]7.5129,[207]7.5120,[208]7.5123,[209]7.4956,[210]7.4856,[211]7.4685,[212]7.4636,[213]7.4500,[214]7.4293,[215]7.4019,[216]7.3883,[217]7.3859,[218]7.3718,[219]7.3668,[220]7.3425,[221]7.3231,[222]7.3149,[223]7.3086,[224]7.2912,[225]7.2771,[226]7.2611,[227]7.2508,[228]7.2507,[229]7.2416,[230]7.2276,[231]7.2372,[232]7.2292,[233]7.2186,[234]7.2283,[235]7.2351,[236]7.2420,[237]7.2394,[238]7.2580,[239]7.2582,[240]7.2736,[241]7.2850,[242]7.3021,[243]7.3161,[244]7.3260,[245]7.3363,[246]7.3428,[247]7.3549,[248]7.3792,[249]7.4032,[250]7.4109,[251]7.4228,[252]7.4141,[253]7.3897,[254]7.3701,[255]7.3477,[256]7.3429,[257]7.3388,[258]7.3416,[259]7.3399,[260]7.3357,[261]7.3267,[262]7.3138,[263]7.3072,[264]7.2951,[265]7.2856,[266]7.2655,[267]7.2666,[268]7.2548,[269]7.2487,[270]7.2424,[271]7.2398,[272]7.2312,[273]7.2301,[274]7.2131,[275]7.1961,[276]7.1646,[277]7.1734,[278]7.1833,[279]7.1796,[280]7.1805,[281]7.1819,[282]7.1847,[283]7.1913,[284]7.2108,[285]7.2147,[286]7.2212,[287]7.2296,[288]7.2405,[289]7.2537,[290]7.2472,[291]7.2338,[292]7.2308,[293]7.2286,[294]7.2245,[295]7.2171,[296]7.2213,[297]7.2268,[298]7.2255,[299]7.2226,[300]7.2211,[301]7.2147,[302]7.2194,[303]7.2218,[304]7.2165,[305]7.2119,[306]7.2149,[307]7.2038,[308]7.2039,[309]7.2146,[310]7.2199,[311]7.2190,[312]7.2294,[313]7.2239,[314]7.2175,[315]7.2308,[316]7.2406,[317]7.2571,[318]7.2619,[319]7.2716,[320]7.2639,[321]7.2635,[322]7.2590,[323]7.2519,[324]7.2554,[325]7.2521,[326]7.2483,[327]7.2563,[328]7.2518,[329]7.2683,[330]7.2674,[331]7.2668,[332]7.2572,[333]7.2489,[334]7.2480,[335]7.2463,[336]7.2432,[337]7.2367,[338]7.2223,[339]7.2160,[340]7.2063,[341]7.1981,[342]7.1937,[343]7.1921,[344]7.1866,[345]7.1718,[346]7.1816,[347]7.1866,[348]7.1856,[349]7.1752,[350]7.1776,[351]7.1802,[352]7.1872,[353]7.1827,[354]7.1740,[355]7.1831,[356]7.1951,[357]7.2174,[358]7.2384,[359]7.2567,[360]7.2712,[361]7.2901,[362]7.3051,[363]7.3200,[364]7.3260,[365]7.3303,[366]7.3405,[367]7.3396,[368]7.3499,[369]7.3631,[370]7.3777,[371]7.3867,[372]7.3915,[373]7.3991,[374]7.4094,[375]7.4232,[376]7.4255,[377]7.4168,[378]7.4055,[379]7.4050,[380]7.4180,[381]7.4301,[382]7.4311,[383]7.4361,[384]7.4276,[385]7.4246,[386]7.4303,[387]7.4351,[388]7.4357,[389]7.4427,[390]7.4452,[391]7.4439,[392]7.4461,[393]7.4392,[394]7.4332,[395]7.4302,[396]7.4240,[397]7.4294,[398]7.4338,[399]7.4385,[400]7.4400,[401]7.4535,[402]7.4566,[403]7.4630,[404]7.4609,[405]7.4567,[406]7.4604,[407]7.4682,[408]7.4791,[409]7.4780,[410]7.4762,[411]7.4815,[412]7.4903,[413]7.4880,[414]7.4861,[415]7.4762,[416]7.4766,[417]7.4949,[418]7.4994,[419]7.5124,[420]7.5130,[421]7.5125,[422]7.5137,[423]7.5070,[424]7.5060,[425]7.4970,[426]7.4955,[427]7.5006,[428]7.4931,[429]7.4954,[430]7.4847,[431]7.4813,[432]7.4778,[433]7.4780,[434]7.4688,[435]7.4613,[436]7.4548,[437]7.4537,[438]7.4434,[439]7.4438,[440]7.4441,[441]7.4336,[442]7.4253,[443]7.4224,[444]7.4227,[445]7.4198,[446]7.4243,[447]7.4314,[448]7.4221,[449]7.4203,[450]7.4218,[451]7.4275,[452]7.4319,[453]7.4324,[454]7.4383,[455]7.4391,[456]7.4476,[457]7.4536,[458]7.4535,[459]7.4510,[460]7.4458,[461]7.4370,[462]7.4326,[463]7.4403,[464]7.4400,[465]7.4347,[466]7.4325,[467]7.4243,[468]7.4286,[469]7.4407,[470]7.4453,[471]7.4468,[472]7.4493,[473]7.4467,[474]7.4444,[475]7.4423,[476]7.4361,[477]7.4303,[478]7.4288,[479]7.4219,[480]7.4165,[481]7.4141,[482]7.4107,[483]7.4024,[484]7.3990,[485]7.4061,[486]7.4054,[487]7.4017,[488]7.4014,[489]7.4023,[490]7.3972,[491]7.4064,[492]7.4031,[493]7.4020,[494]7.4002,[495]7.3989,[496]7.4008,[497]7.4014,[498]7.3981,[499]7.4029,[500]7.3939,[501]7.3918,[502]7.3869,[503]7.3852,[504]7.3807,[505]7.3703,[506]7.3668,[507]7.3687,[508]7.3671,[509]7.3639,[510]7.3574,[511]7.3573,[512]7.3612,[513]7.3679,[514]7.3635,[515]7.3611,[516]7.3573,[517]7.3599,[518]7.3556,[519]7.3604,[520]7.3575,[521]7.3639,[522]7.3675,[523]7.3650,[524]7.3744,[525]7.3853,[526]7.3848,[527]7.3965,[528]7.3977,[529]7.3907,[530]7.3903,[531]7.3950,[532]7.3974,[533]7.3963,[534]7.3874,[535]7.3764,[536]7.3810,[537]7.3739,[538]7.3676,[539]7.3565,[540]7.3437,[541]7.3415,[542]7.3467,[543]7.3528,[544]7.3531,[545]7.3618,[546]7.3634,[547]7.3665,[548]7.3729,[549]7.3825,[550]7.3874,[551]7.3962,[552]7.3947,[553]7.3935,[554]7.3907,[555]7.3909,[556]7.3929,[557]7.3947,[558]7.4022,[559]7.4060,[560]7.4101,[561]7.4127,[562]7.4141,[563]7.4096,[564]7.4119,[565]7.4158,[566]7.4231,[567]7.4257,[568]7.4358,[569]7.4259,
+Final estimate: PPL = 7.4259 +/- 0.04784
+
+llama_perf_context_print:        load time =    2137.63 ms
+llama_perf_context_print: prompt eval time =   38750.52 ms / 291328 tokens (    0.13 ms per token,  7518.04 tokens per second)
+llama_perf_context_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+llama_perf_context_print:       total time =   61947.72 ms / 291329 tokens

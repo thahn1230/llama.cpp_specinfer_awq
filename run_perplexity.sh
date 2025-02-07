@@ -1,0 +1,12 @@
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q6_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q6.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q5_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q5.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q4_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q4.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q3_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q3.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q2_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q2.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-7b-Q8_0.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_7b_Q8.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q6_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q6.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q5_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q5.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q4_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q4.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q3_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q3.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q2_K.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q2.txt 2>&1
+./build/bin/llama-perplexity -m mymodel/gemma-2b-Q8_0.gguf -f wikitext-2-raw/wiki.test.raw -ngl 100 -mg 0,1,2,3,4,5,6,7 > ./results/result_gemma_2b_Q8.txt 2>&1

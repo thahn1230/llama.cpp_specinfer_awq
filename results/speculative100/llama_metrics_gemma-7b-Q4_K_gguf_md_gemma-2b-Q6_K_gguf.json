@@ -1,0 +1,1307 @@
+{
+    "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+    "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+    "runs": [
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the process of photosynthesis and its importance to life on Earth.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 345.0,
+                "n_drafted": 1968.0,
+                "n_accept": 221.0,
+                "accept": 11.23
+            },
+            "timestamp": "2025-01-16 15:39:24"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the significance of the Renaissance period in European history.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 144.0,
+                "n_drafted": 800.0,
+                "n_accept": 93.0,
+                "accept": 11.625
+            },
+            "timestamp": "2025-01-16 15:39:44"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main causes and effects of climate change?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 297.0,
+                "n_drafted": 1024.0,
+                "n_accept": 232.0,
+                "accept": 22.656
+            },
+            "timestamp": "2025-01-16 15:40:06"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of social media on modern society.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:40:50"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the key principles of effective time management.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 1748.0,
+                "n_drafted": 2464.0,
+                "n_accept": 1593.0,
+                "accept": 64.651
+            },
+            "timestamp": "2025-01-16 15:41:22"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the theory of relativity in simple terms.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 251.0,
+                "n_drafted": 1216.0,
+                "n_accept": 174.0,
+                "accept": 14.309
+            },
+            "timestamp": "2025-01-16 15:41:43"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits and drawbacks of renewable energy sources?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:42:20"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of artificial intelligence in healthcare.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 219.0,
+                "n_drafted": 608.0,
+                "n_accept": 180.0,
+                "accept": 29.605
+            },
+            "timestamp": "2025-01-16 15:42:41"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of blockchain and its applications beyond cryptocurrency.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 208.0,
+                "n_drafted": 688.0,
+                "n_accept": 164.0,
+                "accept": 23.837
+            },
+            "timestamp": "2025-01-16 15:42:53"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the cultural significance of traditional festivals in your country.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 112.0,
+                "n_drafted": 704.0,
+                "n_accept": 67.0,
+                "accept": 9.517
+            },
+            "timestamp": "2025-01-16 15:43:12"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the psychological effects of prolonged isolation on individuals?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 342.0,
+                "n_drafted": 1072.0,
+                "n_accept": 274.0,
+                "accept": 25.56
+            },
+            "timestamp": "2025-01-16 15:43:26"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of biodiversity in maintaining ecological balance.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 371.0,
+                "n_drafted": 1008.0,
+                "n_accept": 307.0,
+                "accept": 30.456
+            },
+            "timestamp": "2025-01-16 15:43:47"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the ethical implications of genetic engineering.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:44:31"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the evolution of human communication from ancient times to the digital age.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 348.0,
+                "n_drafted": 1168.0,
+                "n_accept": 274.0,
+                "accept": 23.459
+            },
+            "timestamp": "2025-01-16 15:44:54"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the key factors contributing to economic inequality?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 310.0,
+                "n_drafted": 1248.0,
+                "n_accept": 231.0,
+                "accept": 18.51
+            },
+            "timestamp": "2025-01-16 15:45:17"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the role of government in regulating the economy.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 433.0,
+                "n_drafted": 1200.0,
+                "n_accept": 357.0,
+                "accept": 29.75
+            },
+            "timestamp": "2025-01-16 15:45:42"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of globalization on local cultures and economies.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:46:25"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main challenges facing the education system today.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:47:06"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of mindfulness and meditation practices?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:47:50"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the significance of space exploration for humanity's future.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 387.0,
+                "n_drafted": 1200.0,
+                "n_accept": 311.0,
+                "accept": 25.917
+            },
+            "timestamp": "2025-01-16 15:48:12"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of literature in shaping societal values and norms.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 324.0,
+                "n_drafted": 864.0,
+                "n_accept": 269.0,
+                "accept": 31.134
+            },
+            "timestamp": "2025-01-16 15:48:25"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the process and importance of urban planning in modern cities.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 292.0,
+                "n_drafted": 784.0,
+                "n_accept": 242.0,
+                "accept": 30.867
+            },
+            "timestamp": "2025-01-16 15:48:45"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main causes of deforestation and how can it be prevented?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 160.0,
+                "n_drafted": 416.0,
+                "n_accept": 133.0,
+                "accept": 31.971
+            },
+            "timestamp": "2025-01-16 15:49:04"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of sustainable development and its goals.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 528.0,
+                "n_drafted": 1424.0,
+                "n_accept": 438.0,
+                "accept": 30.758
+            },
+            "timestamp": "2025-01-16 15:49:28"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of technology on the job market and employment trends.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 92.0,
+                "n_drafted": 224.0,
+                "n_accept": 77.0,
+                "accept": 34.375
+            },
+            "timestamp": "2025-01-16 15:49:46"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the key elements of a healthy lifestyle and how to maintain them.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:50:27"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the advantages and disadvantages of remote work?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:51:11"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of mental health awareness in society.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:52:01"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of the arts in personal and community development.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 89.0,
+                "n_drafted": 288.0,
+                "n_accept": 70.0,
+                "accept": 24.306
+            },
+            "timestamp": "2025-01-16 15:52:19"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the significance of cultural heritage preservation.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 556.0,
+                "n_drafted": 1408.0,
+                "n_accept": 467.0,
+                "accept": 33.168
+            },
+            "timestamp": "2025-01-16 15:52:42"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main challenges in achieving global peace and security?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 146.0,
+                "n_drafted": 864.0,
+                "n_accept": 91.0,
+                "accept": 10.532
+            },
+            "timestamp": "2025-01-16 15:52:55"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the impact of diet and nutrition on overall health.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 258.0,
+                "n_drafted": 1184.0,
+                "n_accept": 183.0,
+                "accept": 15.456
+            },
+            "timestamp": "2025-01-16 15:53:18"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of sports in promoting teamwork and discipline.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 107.0,
+                "n_drafted": 256.0,
+                "n_accept": 90.0,
+                "accept": 35.156
+            },
+            "timestamp": "2025-01-16 15:53:35"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the effects of pollution on the environment and human health.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:58:38"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of learning a second language?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 15:59:21"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of digital literacy and its importance in the modern world.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 283.0,
+                "n_drafted": 896.0,
+                "n_accept": 226.0,
+                "accept": 25.223
+            },
+            "timestamp": "2025-01-16 15:59:39"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of leadership in organizational success.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 359.0,
+                "n_drafted": 1936.0,
+                "n_accept": 237.0,
+                "accept": 12.242
+            },
+            "timestamp": "2025-01-16 16:00:07"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main factors that influence human behavior.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 380.0,
+                "n_drafted": 1040.0,
+                "n_accept": 314.0,
+                "accept": 30.192
+            },
+            "timestamp": "2025-01-16 16:00:30"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits and challenges of multiculturalism in society?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 289.0,
+                "n_drafted": 544.0,
+                "n_accept": 254.0,
+                "accept": 46.691
+            },
+            "timestamp": "2025-01-16 16:00:50"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of financial literacy for individuals.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 565.0,
+                "n_drafted": 1664.0,
+                "n_accept": 460.0,
+                "accept": 27.644
+            },
+            "timestamp": "2025-01-16 16:01:16"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of tourism on local economies and cultures.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 1235.0,
+                "n_drafted": 1680.0,
+                "n_accept": 1129.0,
+                "accept": 67.202
+            },
+            "timestamp": "2025-01-16 16:01:42"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the process of democratic governance and its key features.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:02:26"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main causes and consequences of unemployment?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 562.0,
+                "n_drafted": 2368.0,
+                "n_accept": 413.0,
+                "accept": 17.441
+            },
+            "timestamp": "2025-01-16 16:02:56"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the role of non-governmental organizations (NGOs) in humanitarian efforts.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:03:40"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the importance of critical thinking skills in education and everyday life.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:04:21"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the impact of media censorship on freedom of expression.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 121.0,
+                "n_drafted": 784.0,
+                "n_accept": 71.0,
+                "accept": 9.056
+            },
+            "timestamp": "2025-01-16 16:04:38"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of community service and volunteerism?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:05:22"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of intellectual property and its importance in innovation.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:05:57"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of renewable resources in combating environmental degradation.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:06:37"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main components of a balanced diet.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 404.0,
+                "n_drafted": 2064.0,
+                "n_accept": 274.0,
+                "accept": 13.275
+            },
+            "timestamp": "2025-01-16 16:07:05"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the advantages and disadvantages of nuclear energy?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 402.0,
+                "n_drafted": 1424.0,
+                "n_accept": 312.0,
+                "accept": 21.91
+            },
+            "timestamp": "2025-01-16 16:07:30"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of emotional intelligence in personal and professional relationships.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:08:15"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of automation on various industries.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 525.0,
+                "n_drafted": 2304.0,
+                "n_accept": 380.0,
+                "accept": 16.493
+            },
+            "timestamp": "2025-01-16 16:08:45"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the key elements of effective communication.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 406.0,
+                "n_drafted": 1360.0,
+                "n_accept": 320.0,
+                "accept": 23.529
+            },
+            "timestamp": "2025-01-16 16:09:08"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main challenges in addressing homelessness?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 547.0,
+                "n_drafted": 1520.0,
+                "n_accept": 451.0,
+                "accept": 29.671
+            },
+            "timestamp": "2025-01-16 16:09:34"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of globalization and its effects on international trade.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 385.0,
+                "n_drafted": 880.0,
+                "n_accept": 329.0,
+                "accept": 37.386
+            },
+            "timestamp": "2025-01-16 16:09:56"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of education in promoting social mobility.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:10:39"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the importance of water conservation and sustainable usage.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:11:22"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of practicing yoga and regular physical exercise?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 270.0,
+                "n_drafted": 1344.0,
+                "n_accept": 185.0,
+                "accept": 13.765
+            },
+            "timestamp": "2025-01-16 16:11:46"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the impact of digital transformation on traditional businesses.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 287.0,
+                "n_drafted": 832.0,
+                "n_accept": 234.0,
+                "accept": 28.125
+            },
+            "timestamp": "2025-01-16 16:12:07"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of innovation in economic growth and development.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 242.0,
+                "n_drafted": 704.0,
+                "n_accept": 197.0,
+                "accept": 27.983
+            },
+            "timestamp": "2025-01-16 16:12:27"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main features of a democratic society.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:13:10"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits and drawbacks of social welfare programs?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:13:53"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the significance of renewable energy in reducing carbon emissions.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:14:38"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of cultural diversity on workplace dynamics.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 488.0,
+                "n_drafted": 992.0,
+                "n_accept": 425.0,
+                "accept": 42.843
+            },
+            "timestamp": "2025-01-16 16:15:00"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the process of scientific research and its importance in advancing knowledge.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 1020.0,
+                "n_drafted": 3744.0,
+                "n_accept": 785.0,
+                "accept": 20.967
+            },
+            "timestamp": "2025-01-16 16:15:39"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main challenges in achieving gender equality?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 256.0,
+                "n_drafted": 816.0,
+                "n_accept": 204.0,
+                "accept": 25.0
+            },
+            "timestamp": "2025-01-16 16:16:00"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the role of public transportation in urban sustainability.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:16:42"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the importance of ethical consumerism in modern markets.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 637.0,
+                "n_drafted": 1424.0,
+                "n_accept": 547.0,
+                "accept": 38.413
+            },
+            "timestamp": "2025-01-16 16:16:58"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the effects of noise pollution on human health and well-being.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 257.0,
+                "n_drafted": 960.0,
+                "n_accept": 196.0,
+                "accept": 20.417
+            },
+            "timestamp": "2025-01-16 16:17:21"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of lifelong learning and continuous education?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:18:00"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of circular economy and its benefits.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 219.0,
+                "n_drafted": 768.0,
+                "n_accept": 170.0,
+                "accept": 22.135
+            },
+            "timestamp": "2025-01-16 16:18:21"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of technology in enhancing educational methodologies.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 52.0,
+                "n_drafted": 80.0,
+                "n_accept": 46.0,
+                "accept": 57.5
+            },
+            "timestamp": "2025-01-16 16:18:31"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the impact of climate change on global agriculture.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 589.0,
+                "n_drafted": 1120.0,
+                "n_accept": 518.0,
+                "accept": 46.25
+            },
+            "timestamp": "2025-01-16 16:18:55"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the advantages and disadvantages of nuclear power plants?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:19:41"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of preserving endangered species.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:20:20"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of government policies in promoting economic stability.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:21:05"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main causes of water scarcity and potential solutions.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 598.0,
+                "n_drafted": 1728.0,
+                "n_accept": 489.0,
+                "accept": 28.299
+            },
+            "timestamp": "2025-01-16 16:21:32"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of participating in team sports?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 276.0,
+                "n_drafted": 1024.0,
+                "n_accept": 211.0,
+                "accept": 20.605
+            },
+            "timestamp": "2025-01-16 16:21:54"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the significance of renewable energy sources in today's world.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:22:36"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of cultural exchange programs on international relations.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 96.0,
+                "n_drafted": 240.0,
+                "n_accept": 80.0,
+                "accept": 33.333
+            },
+            "timestamp": "2025-01-16 16:22:54"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the importance of cybersecurity in protecting personal and organizational data.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 720.0,
+                "n_drafted": 3168.0,
+                "n_accept": 521.0,
+                "accept": 16.446
+            },
+            "timestamp": "2025-01-16 16:23:28"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main challenges in implementing universal healthcare?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:24:11"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the role of arts education in fostering creativity and critical thinking.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 365.0,
+                "n_drafted": 960.0,
+                "n_accept": 304.0,
+                "accept": 31.667
+            },
+            "timestamp": "2025-01-16 16:24:32"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of fast fashion on the environment and society.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 133.0,
+                "n_drafted": 352.0,
+                "n_accept": 110.0,
+                "accept": 31.25
+            },
+            "timestamp": "2025-01-16 16:24:51"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the benefits of adopting a minimalist lifestyle.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 256.0,
+                "n_drafted": 1248.0,
+                "n_accept": 177.0,
+                "accept": 14.183
+            },
+            "timestamp": "2025-01-16 16:25:15"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the advantages and disadvantages of electric vehicles?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:25:58"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of financial planning for future security.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 454.0,
+                "n_drafted": 1680.0,
+                "n_accept": 348.0,
+                "accept": 20.714
+            },
+            "timestamp": "2025-01-16 16:26:24"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the role of sports in promoting physical and mental health.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 75.0,
+                "n_drafted": 160.0,
+                "n_accept": 64.0,
+                "accept": 40.0
+            },
+            "timestamp": "2025-01-16 16:26:42"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the main factors contributing to mental health issues in adolescents.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:27:23"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the benefits of implementing green building practices?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:28:07"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the concept of smart cities and their potential benefits.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 206.0,
+                "n_drafted": 544.0,
+                "n_accept": 171.0,
+                "accept": 31.434
+            },
+            "timestamp": "2025-01-16 16:28:27"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the impact of misinformation on public opinion and decision-making.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:29:10"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the importance of fostering innovation in the technology sector.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 230.0,
+                "n_drafted": 1120.0,
+                "n_accept": 159.0,
+                "accept": 14.196
+            },
+            "timestamp": "2025-01-16 16:29:33"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the main challenges in achieving sustainable urban development?",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 473.0,
+                "n_drafted": 2128.0,
+                "n_accept": 339.0,
+                "accept": 15.93
+            },
+            "timestamp": "2025-01-16 16:30:02"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the role of international organizations in addressing global issues.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 133.0,
+                "n_drafted": 608.0,
+                "n_accept": 94.0,
+                "accept": 15.461
+            },
+            "timestamp": "2025-01-16 16:30:21"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Discuss the benefits of cultural heritage tourism for local communities.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:31:06"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Describe the effects of excessive screen time on children's development.",
+            "metrics": {
+                "n_draft": 16.0,
+                "n_predict": 633.0,
+                "n_drafted": 1776.0,
+                "n_accept": 521.0,
+                "accept": 29.336
+            },
+            "timestamp": "2025-01-16 16:31:32"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "What are the advantages and disadvantages of remote learning?",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:32:16"
+        },
+        {
+            "model_m": "./mymodel/gemma-7b-Q4_K.gguf",
+            "model_md": "./mymodel/gemma-2b-Q6_K.gguf",
+            "prompt": "Explain the importance of disaster preparedness and response planning.",
+            "metrics": {
+                "n_draft": null,
+                "n_predict": null,
+                "n_drafted": null,
+                "n_accept": null,
+                "accept": null
+            },
+            "timestamp": "2025-01-16 16:32:58"
+        }
+    ],
+    "average_accept": 26.71447619047619
+}
