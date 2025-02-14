@@ -170,7 +170,7 @@ int main(int argc, char ** argv) {
             //LOG_DBG("target batch: %s\n", string_from(ctx_tgt, batch_tgt).c_str());
 
             llama_decode(ctx_tgt, batch_tgt);
-            ++count;
+            // ++count;
         }
 
         // sample from the full target batch and return the accepted tokens based on the target sampler
