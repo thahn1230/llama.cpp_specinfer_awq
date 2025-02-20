@@ -11,16 +11,16 @@ from typing import Dict, Optional
 BASE_LLAMA_COMMAND = [
     './build/bin/llama-speculative-simple',
     '-c', '0',
-    '-ngl', '99',
+    '-ngl', '9999',
     '--color',
-    'sampling-seq', 'k',
+    '--sampling-seq', 'k',
     '--top_k', '1',
     '-fa',
     '--temp', '0.0',
-    '-ngld', '99',
+    '-ngld', '9999',
     '--draft-max', '16',
     '--draft-min', '5',
-    '--draft-p-min', '0.0',
+    '--draft-p-min', '0.9',
 ]
 
 # 모델 조합 리스트
@@ -42,7 +42,7 @@ MD_MODELS = [
 METRIC_KEYS = ['n_draft', 'n_predict', 'n_drafted', 'n_accept', 'accept']
 
 # 결과를 저장할 디렉토리
-OUTPUT_DIR = './results/speculative-simple100'
+OUTPUT_DIR = './results/speculative-simple100_0.9'
 
 # 디렉토리가 없으면 생성
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -176,6 +176,7 @@ def run_llama(command: list) -> str:
     """llama-speculative 명령을 실행하고 출력을 반환"""
     try:
         result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=300)
+        # 아래는 디버깅 확인용 코드
         # print(f"Command Output:\n{result.stdout}")  # 표준 출력 확인
         # print(f"Command Error Output:\n{result.stderr}")  # 표준 에러 확인
         combined_output = result.stdout + '\n' + result.stderr

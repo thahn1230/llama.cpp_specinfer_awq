@@ -242,8 +242,6 @@ int main(int argc, char ** argv) {
     LOG_INF("n_predict = %d\n", n_predict);
     LOG_INF("n_drafted = %d\n", n_drafted);
     LOG_INF("n_accept  = %d\n", n_accept);
-    LOG_INF("count     = %d\n", count);
-    // LOG_INF("accept    = %.3f%%\n", 100.0f * n_accept /(count * n_draft));
     LOG_INF("accept    = %.3f%%\n", 100.0f * n_accept / n_drafted);
 
     LOG_INF("\n");
