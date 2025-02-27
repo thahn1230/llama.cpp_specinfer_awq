@@ -1,0 +1,4 @@
+./build/bin/llama-perplexity -m Llama-2-7b.gguf -f wikitext-2-raw/wiki.test.raw > ./results/perplexity/llama-2-7b-ppl.txt 2>&1
+./build/bin/llama-perplexity -m models/llama-2-7b-awqlike/llama-2-7b-awqlike.gguf -f wikitext-2-raw/wiki.test.raw > ./results/perplexity/llama-2-7b-weight-scaled-ppl.txt 2>&1
+./build/bin/llama-perplexity -m models/llama-2-7b-awqlike/llama-2-7b-autoawq-Q4_0.gguf -f wikitext-2-raw/wiki.test.raw > ./results/perplexity/llama-2-7b-awq-q4-0-ppl.txt 2>&1
+./build/bin/llama-perplexity -m models/llama-2-7b-awqlike/llama-2-7b-autoawq-Q4_K_M.gguf -f wikitext-2-raw/wiki.test.raw > ./results/perplexity/llama-2-7b-awq-a4-k-mppl.txt 2>&1

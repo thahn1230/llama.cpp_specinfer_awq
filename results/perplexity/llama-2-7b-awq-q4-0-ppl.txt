@@ -1,0 +1,152 @@
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 8 CUDA devices:
+  Device 0: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 1: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 2: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 3: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 4: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 5: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 6: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+  Device 7: NVIDIA GeForce RTX 3090, compute capability 8.6, VMM: yes
+register_backend: registered backend CUDA (8 devices)
+register_device: registered device CUDA0 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA1 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA2 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA3 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA4 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA5 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA6 (NVIDIA GeForce RTX 3090)
+register_device: registered device CUDA7 (NVIDIA GeForce RTX 3090)
+register_backend: registered backend CPU (1 devices)
+register_device: registered device CPU (Intel(R) Xeon(R) Silver 4215R CPU @ 3.20GHz)
+build: 4534 (5fe7c64b) with cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0 for x86_64-linux-gnu (debug)
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 3090) - 21168 MiB free
+llama_model_load_from_file_impl: using device CUDA1 (NVIDIA GeForce RTX 3090) - 21116 MiB free
+llama_model_load_from_file_impl: using device CUDA2 (NVIDIA GeForce RTX 3090) - 21204 MiB free
+llama_model_load_from_file_impl: using device CUDA3 (NVIDIA GeForce RTX 3090) - 21156 MiB free
+llama_model_load_from_file_impl: using device CUDA4 (NVIDIA GeForce RTX 3090) - 21112 MiB free
+llama_model_load_from_file_impl: using device CUDA5 (NVIDIA GeForce RTX 3090) - 21140 MiB free
+llama_model_load_from_file_impl: using device CUDA6 (NVIDIA GeForce RTX 3090) - 21112 MiB free
+llama_model_load_from_file_impl: using device CUDA7 (NVIDIA GeForce RTX 3090) - 21118 MiB free
+llama_model_loader: loaded meta data with 32 key-value pairs and 291 tensors from models/llama-2-7b-awqlike/llama-2-7b-autoawq-Q4_0.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Llama 2 7b
+llama_model_loader: - kv   3:                       general.organization str              = Models
+llama_model_loader: - kv   4:                           general.finetune str              = awqlike
+llama_model_loader: - kv   5:                           general.basename str              = llama-2
+llama_model_loader: - kv   6:                         general.size_label str              = 7B
+llama_model_loader: - kv   7:                          llama.block_count u32              = 32
+llama_model_loader: - kv   8:                       llama.context_length u32              = 4096
+llama_model_loader: - kv   9:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv  10:                  llama.feed_forward_length u32              = 11008
+llama_model_loader: - kv  11:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv  12:              llama.attention.head_count_kv u32              = 32
+llama_model_loader: - kv  13:                       llama.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  14:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  15:                 llama.attention.key_length u32              = 128
+llama_model_loader: - kv  16:               llama.attention.value_length u32              = 128
+llama_model_loader: - kv  17:                           llama.vocab_size u32              = 32000
+llama_model_loader: - kv  18:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv  19:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  20:                         tokenizer.ggml.pre str              = default
+llama_model_loader: - kv  21:                      tokenizer.ggml.tokens arr[str,32000]   = ["<unk>", "<s>", "</s>", "<0x00>", "<...
+llama_model_loader: - kv  22:                      tokenizer.ggml.scores arr[f32,32000]   = [-1000.000000, -1000.000000, -1000.00...
+llama_model_loader: - kv  23:                  tokenizer.ggml.token_type arr[i32,32000]   = [3, 3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, ...
+llama_model_loader: - kv  24:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  25:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  26:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  27:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  28:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  29:            tokenizer.ggml.add_space_prefix bool             = false
+llama_model_loader: - kv  30:               general.quantization_version u32              = 2
+llama_model_loader: - kv  31:                          general.file_type u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q4_0:  225 tensors
+llama_model_loader: - type q6_K:    1 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_0
+print_info: file size   = 3.56 GiB (4.54 BPW) 
+load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+load: special tokens cache size = 3
+load: token to piece cache size = 0.1684 MB
+print_info: arch             = llama
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 4096
+print_info: n_embd           = 4096
+print_info: n_layer          = 32
+print_info: n_head           = 32
+print_info: n_head_kv        = 32
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 1
+print_info: n_embd_k_gqa     = 4096
+print_info: n_embd_v_gqa     = 4096
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-05
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: n_ff             = 11008
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = 0
+print_info: rope type        = 0
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 10000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 4096
+print_info: rope_finetuned   = unknown
+print_info: ssm_d_conv       = 0
+print_info: ssm_d_inner      = 0
+print_info: ssm_d_state      = 0
+print_info: ssm_dt_rank      = 0
+print_info: ssm_dt_b_c_rms   = 0
+print_info: model type       = 7B
+print_info: model params     = 6.74 B
+print_info: general.name     = Llama 2 7b
+print_info: vocab type       = SPM
+print_info: n_vocab          = 32000
+print_info: n_merges         = 0
+print_info: BOS token        = 1 '<s>'
+print_info: EOS token        = 2 '</s>'
+print_info: UNK token        = 0 '<unk>'
+print_info: LF token         = 13 '<0x0A>'
+print_info: EOG token        = 2 '</s>'
+print_info: max token length = 48
+load_tensors: offloading 0 repeating layers to GPU
+load_tensors: offloaded 0/33 layers to GPU
+load_tensors:  CPU_AARCH64 model buffer size =  3474.00 MiB
+load_tensors:   CPU_Mapped model buffer size =  3623.68 MiB
+llama_init_from_model: n_seq_max     = 4
+llama_init_from_model: n_ctx         = 2048
+llama_init_from_model: n_ctx_per_seq = 512
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 0
+llama_init_from_model: freq_base     = 10000.0
+llama_init_from_model: freq_scale    = 1
+llama_init_from_model: n_ctx_per_seq (512) < n_ctx_train (4096) -- the full capacity of the model will not be utilized
+llama_kv_cache_init: kv_size = 2048, offload = 1, type_k = 'f16', type_v = 'f16', n_layer = 32, can_shift = 1
+llama_kv_cache_init:        CPU KV buffer size =  1024.00 MiB
+llama_init_from_model: KV self size  = 1024.00 MiB, K (f16):  512.00 MiB, V (f16):  512.00 MiB
+llama_init_from_model:        CPU  output buffer size =     0.49 MiB
+llama_init_from_model:      CUDA0 compute buffer size =   173.04 MiB
+llama_init_from_model:  CUDA_Host compute buffer size =   156.01 MiB
+llama_init_from_model: graph nodes  = 1030
+llama_init_from_model: graph splits = 196 (with bs=512), 1 (with bs=1)
+common_init_from_params: setting dry_penalty_last_n to ctx_size = 2048
+common_init_from_params: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+
+system_info: n_threads = 16 (n_threads_batch = 16) / 32 | CUDA : ARCHS = 860 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | AVX512 = 1 | AVX512_VNNI = 1 | LLAMAFILE = 1 | OPENMP = 1 | AARCH64_REPACK = 1 | 
+perplexity: tokenizing the input ..
+perplexity: tokenization took 16255.9 ms
+perplexity: calculating perplexity over 655 chunks, n_ctx=512, batch_size=2048, n_seq=4
+llama_output_reserve: reallocating output buffer from size 0.49 MiB to 125.00 MiB
+perplexity: 1883.61 seconds per pass - ETA 85 hours 40.68 minutes
+[1]4.3831,[2]4.8588,[3]5.5208,[4]6.0793,[5]6.2071,[6]6.0967,[7]6.2705,[8]6.3555,[9]6.6830,[10]6.8837,[11]7.1104,[12]7.1463,[13]7.0702,[14]7.1428,[15]7.3830,[16]7.0337,[17]6.9127,[18]6.8984,[19]6.5697,[20]6.5652,[21]6.4895,[22]6.3087,[23]6.2776,[24]6.1801,[25]6.1716,[26]6.0163,[27]5.8304,[28]5.7335,[29]5.6528,[30]5.4971,[31]5.4587,[32]5.4817,[33]5.4384,[34]5.4656,[35]5.4807,[36]5.5067,[37]5.5045,[38]5.4995,[39]5.5180,[40]5.5643,
